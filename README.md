@@ -10,8 +10,7 @@ Rather than relying on basic models, this project implements advanced deep learn
 * **Optimization & Balancing:** Implemented **SMOTE** to handle class imbalance, combined with Grid Search hyperparameter tuning, Early Stopping, and Batch Normalization.
 * **Data Augmentation:** Applied on-the-fly spatial transformations (flips, rotations, zoom) to enhance model robustness.
 
-## Repository Contents & Dataset
-* `OASIS Alzheimer Dataset`: The primary dataset utilized, sourced from Kaggle. It consists of ~10,400 grayscale MRI images across 68 unique patients, organized into Healthy and Diseased classes.
+## Repository Contents
 * `Alzheimer's_Disease_Classification_Project.ipynb`: The complete Python notebook containing the pipeline from preprocessing and augmentation to model training and evaluation.
 * `Alzheimer's Disease Classification Report.pdf`: The comprehensive report detailing dataset characteristics, methodology, and results analysis.
 * `Alzheimer's Disease Classification presentation.pdf`: A visual summary of the project including confusion matrices, learning curves, and a live demo showcase.
